@@ -20,6 +20,7 @@ unet_hair.ipynb
 unet_512.h5
 temp.png
 temp_mask.png
+temp_overlay.png
 ```
 
 ## Upload these new support files from this package

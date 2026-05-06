@@ -14,9 +14,9 @@ A detailed technical report is included here:
 
 ## Sample result
 
-| Input dermoscopy image | Predicted hair mask |
-|---|---|
-| <img src="temp.png" width="320"> | <img src="temp_mask.png" width="320"> |
+| Input dermoscopy image | Binary hair mask | Overlay visual check |
+|---|---|---|
+| <img src="temp.png" width="300"> | <img src="temp_mask.png" width="300"> | <img src="temp_overlay.png" width="300"> |
 
 ## What this project does
 
@@ -69,6 +69,7 @@ The project pipeline contains five main stages:
 ├── unet_512.h5
 ├── temp.png
 ├── temp_mask.png
+├── temp_overlay.png
 ├── run_demo.py
 ├── run_batch_classification.py
 ├── docs/
@@ -91,7 +92,8 @@ The project pipeline contains five main stages:
 | `unet_hair.ipynb` | Original training and inference notebook |
 | `unet_512.h5` | Saved trained model |
 | `temp.png` | Example input image |
-| `temp_mask.png` | Example predicted mask |
+| `temp_mask.png` | Example binary hair mask |
+| `temp_overlay.png` | Example overlay for visual inspection |
 | `run_demo.py` | Simple script for running the trained model on one image |
 | `run_batch_classification.py` | Optional script for grouping images by predicted hair count |
 | `docs/` | Technical project report |
