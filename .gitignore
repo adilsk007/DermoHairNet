@@ -1,0 +1,33 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Large generated classification output
+Classify/*
+!Classify/README.md
+
+# Dataset folders
+data/images/*
+data/masks/*
+data/Test/*
+!data/README.md
+!data/images/README.md
+!data/masks/README.md
+!data/Test/README.md
+
+# Output folders
+outputs/*
+!outputs/README.md
+
+# Temporary files
+temp_output.png
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
